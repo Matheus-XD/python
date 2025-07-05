@@ -1,15 +1,25 @@
 #Programa que faz o computador jogar jokenpô com o usuario
 
 import random
+import time
 
-player = input('Digite qual a sua jogada: Pedra, Papel ou Tesoura: ').lower().strip()
 
+print(10*'=', 'JOKENPÔ', 10*'=')
+player = input('Digite qual a sua jogada:\nPedra, Papel ou Tesoura? ').lower().strip()
 
 comandos = ['pedra', 'papel', 'tesoura']
 maquina = random.choice(comandos).lower().strip()
+print(40*'=')
 
+print('JO')
+time.sleep(1)
+print('KEN')
+time.sleep(1)
+print('PÔ...')
+
+print(40*'=')
 print('A maquina escolheu: {}\nVocê escolheu {}' .format(maquina, player))
-
+print(40*'=')
 if player == maquina:
     print('O JOGO EMPATOU!!!')
 elif player == 'pedra' and maquina == 'papel':

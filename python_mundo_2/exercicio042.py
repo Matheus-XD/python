@@ -13,8 +13,10 @@ if a + b > c and a + c > b and b + c > a:
         print('O triângulo é equilatero: todos os lados são iguais!!')
     elif a == b or a == c or b == c:
         print('O triângulo é isósceles: tem 2 lados iguais!!')
-    else: 
+    elif a != b !=c !=a: 
         print('O triângulo é escaleno: não tem nenhum lado igual!!')
+    else:
+        print('Algo de errado não está certo') 
 else: 
     print('As três retas {}, {} e {} não podem formar um triângulo!' .format(a, b, c))
 

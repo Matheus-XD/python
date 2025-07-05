@@ -1,8 +1,11 @@
-#Programa que Lê a idade de uma pessoa e diz se ela está nas categorias: 
+#Programa que Lê o ano de nascimento de uma pessoa e diz sua idade e em qual categoria abaixo ela se encaixa: 
 #mirin(até 9 anos), infantil (até 14), junior (até 19), senior (até 20), master (acima de 20)
+from datetime import date
+nascimento = int(input('Digite o ano de nascimento: '))
 
-idade = int(input('Digite a sua idade: '))
+idade = date.today().year - nascimento
 
+print('Sua idade é {} anos' .format(idade))
 if idade <= 9:
     print('Você está na categoria mirin!')
 elif idade > 9 and idade <= 14:
