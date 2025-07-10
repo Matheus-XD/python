@@ -5,10 +5,10 @@ maiorIdadeMasculinoNome = ''
 qtdMulheresMenos21 = 0
 
 for c in range(1, 5): 
-    print(5*'-','{}ª pessoa' .format(c), 5*'-')
-    nome = input('Digite o nome: ')
+    print('----- {}ª PESSOA -----' .format(c))
+    nome = input('Digite o nome: ').strip()
     idade = int(input('Digite a idade: '))
-    sexo = input('Qual o sexo? [ M/F ]: ').lower()
+    sexo = input('Qual o sexo? [ M/F ]: ').lower().strip()
 
     somaidades  = somaidades + idade
 
