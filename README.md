@@ -17,3 +17,4 @@ Estrutura de repetição while com break --- exercicio 066 até 071
 python_mundo_3
 
 Váriaveis compostas (tuplas) ------------- exercício 072 até 077
+Váriaveis compostas (listas) ------------- exercício 078 até 083
