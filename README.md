@@ -24,6 +24,7 @@ Estrutura de repetição while com break --- exercício 066 até 071
 Variáveis compostas (tuplas) ------------- exercício 072 até 077  
 Variáveis compostas (listas) ------------- exercício 078 até 083  
 Variáveis compostas (listas duplas) ------ exercício 084 até 089  
-Variáveis compostas (dicionários) -------- exercício 090 até 095  
+Variáveis compostas (dicionários) -------- exercício 090 até 095
+Funções (parte 1) ------------------------ exercício 095 até 100  
 ```
 
