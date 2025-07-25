@@ -27,5 +27,7 @@ Variáveis compostas (listas duplas) ------ exercício 084 até 089
 Variáveis compostas (dicionários) -------- exercício 090 até 095
 Funções (parte 1) ------------------------ exercício 095 até 100 
 Funções (parte 2) ------------------------ exercício 101 até 106
+Modulos e pacotes ------------------------ exercício 107 até 112
+tratamento de erros e exceções ----------- exercício 113 até 115
 ```
 
